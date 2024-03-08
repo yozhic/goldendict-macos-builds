@@ -1,4 +1,4 @@
-<sup>[ [en](https://github.com/yozhic/goldendict-macos-builds/blob/main/README.md) | ru ]</sup>  
+<sup>[ [en](https://github.com/yozhic/goldendict-macos-builds/tree/main) | ru ]</sup>  
 
 # goldendict-macos-builds
 
