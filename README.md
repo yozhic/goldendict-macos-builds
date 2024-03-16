@@ -5,99 +5,59 @@
 Unofficial third-party builds of GoldenDict for macOS
 
 Based on Qt 5.14.2 (Clang 11.0, x86_64) with QtWebKit 5.212.0 Alpha 4  
-Tested on Mojave, Big Sur, Monterey  
+Tested on Mojave, Big Sur, Monterey, Ventura  
 
 > [!IMPORTANT]  
 > Provided "as is" with no warranty of any kind.  
 
-## Описание
 
-Сборки предоставляются в двух версиях: `master` и `mac-adapted`.  
+## Overview
 
-Версия `master` собирается из исходного кода [официального репозитория GoldenDict](https://github.com/goldendict/goldendict) без изменений и дополнений, как есть.  
+The `master` version is a macOS build of the (hopefully) most up-to-date version of [goldendict-master](https://github.com/goldendict/goldendict), without any additions or modifications.  
 
-Версия `mac-adapted` собирается на основе исходного кода официального репозитория GoldenDict, с внесением косметических изменений и дополнений для лучшей адаптации к внешнему виду macOS. С историей изменений можно ознакомиться в [ответвлении кода GoldenDict](https://github.com/yozhic/goldendict/tree/mac-adapted), где они производятся. Вкратце, они включают: новые иконки для панелей инструментов, дополнительные стили для окон программы и словарных статей.  
+The `mac-adapted` version is an [attempt](https://github.com/yozhic/goldendict/tree/mac-adapted) to make GoldenDict look more presentable on newer macOS systems. It comes with an updated set of scalable icons and includes three additional display styles whose look and feel aims to match that of the OS itself. In all other respects it is exactly the same as the plain unaltered `master` version.  
 
-Отличия между двумя версиями проиллюстрированы ниже.  
+To take full advantage of the UI improvements the `mac-adapted` version has to offer, navigate to _Preferences_ → _Interface_, click Display style and pick one of the three styles that were specifically crafted with macOS in mind:  
 
-## Настройки
+- macOS Light
+- macOS Dark
+- macOS Dark Deep
 
-### В системе
 
-Для работоспособности таких функций, как Всплывающее окно и Глобальные горячие клавиши, необходимо предоставить GoldenDict разрешение на управление Mac через функции универсального доступа. Для этого открываем меню Apple :green_apple: → Системные настройки → Защита и безопасность → вкладка Конфиденциальность. Разблокируем возможность редактирования щелчком по иконке замочка :lock: внизу окна. В левой панели выбираем Универсальный доступ, в правой жмём кнопку Добавить :heavy_plus_sign:, находим и выделяем `GoldenDict.app`, жмём Открыть. Можно также перетащить `app` из окна Finder на панель списка приложений. Отмечаем флажок :ballot_box_with_check: слева от `GoldenDict.app`[^1].  
+## Post-install
 
-[^1]: Источник: [Apple Support: Разрешение доступа к компьютеру Mac программам Универсального доступа](https://support.apple.com/ru-ru/guide/mac-help/mh43185/10.14/mac/10.14)  
+The steps below are required for certain features to function properly. It is highly recommended that you follow these steps every time you install or update GoldenDict:  
 
-В силу особенностей работы macOS, процедуру предоставления разрешений необходимо повторять после каждого обновления GoldenDict. Для этого в указанном диалоге выделяем строку `GoldenDict.app` и жмём кнопку Удалить :heavy_minus_sign:. Затем жмём кнопку Добавить :heavy_plus_sign: и далее, как описано выше.  
+1.	Click the  Apple menu and select _System Preferences_ from the drop-down list.
+2.	Under _Security & Privacy_, click the _Privacy_ tab and then _Accessibility_.
+3.	Click the 🔒 lock icon at the bottom of the dialog to make changes.
+4.	Scroll through the list of apps to make sure GoldenDict.app is _not_ on the list. If it is, remove it using the ➖ (_Delete_) button.
+5.	Add GoldenDict.app to the list. There are two ways to do that: you can either drag and drop GoldenDict.app directly into the pane, or you can click the ➕ (_Add_) button, select GoldenDict.app and click _Open_.
+6.	Enable the checkbox next to GoldenDict.app.
 
-### В программе
 
-Дополнительные стили сборки `mac-adapted` включаются в настройках GoldenDict → вкладка Интерфейс → выпадающий список Стиль интерфейса. Стили синхронизированы с системными настройками оформления macOS, т.е. при включенном системном оформлении `Light` следует использовать стиль `macOS Light`, а при системном `Dark` — один из двух тёмных стилей, `macOS Dark` или `macOS Dark Deep`.  
+## Known issues
 
-## Известные проблемы
+<dl>
+  <dt>Command+C not working</dt>
+    <dd>It is not uncommon for GoldenDict to interfere with your using <kbd>Command</kbd>+<kbd>C</kbd> (<i>Copy</i>) in other applications, so if you find that <kbd>Command</kbd>+<kbd>C</kbd> is not working for copying items, make sure to first try the steps outlined above under <i>Post-install</i>. If the problem persists, navigate to <i>Preferences</i> → <i>Hotkeys</i> and set the hotkey under <i>'Use the following hotkey to translate a word from clipboard'</i> to something other than the default <kbd>Command</kbd>+<kbd>C</kbd>+<kbd>C</kbd>.</dd>
+  <dt>Scan Popup not working as it should</dt>
+    <dd>This functionality seems to be largely broken on newer versions of macOS. The steps outlined under <i>Post-install</i> might help somewhat, but if they don't, just make sure the 'magic wand' button is not pressed, or indeed disable it completely by un-checking everything under <i>Preferences</i> → <i>Scan Popup</i>.</dd>
+</dl>
 
-1. Если при включении GoldenDict в других приложениях перестаёт работать копирование текста по сочетанию клавиш <kbd>Cmd</kbd>+<kbd>C</kbd>, необходимо предоставить GoldenDict разрешение на Универсальный доступ. Описание этой процедуры см. выше. Можно также переназначить это сочетание в настройках GoldenDict → Горячие клавиши.
 
-2. Функция Всплывающее окно на последних версиях macOS работает не так хорошо, как на Windows. Мы рекомендуем воздержаться от её использования на macOS и отключить её в настройках.  
+## Download
 
-## Отличия
+You can get the latest release from the [Releases](https://github.com/yozhic/goldendict-macos-builds/releases) page.  
 
-Сравнение версий: окно программы, системное оформление `Light`, стиль `macOS Light`  
+
+## Compare versions
 
 ![COMPARE LIGHT](https://github.com/yozhic/goldendict-macos-builds/blob/main/screenshots/COMPARE_LIGHT.png)  
 
-Сравнение версий: окно программы, системное оформление `Dark`, стиль `macOS Dark`  
-
 ![COMPARE DARK](https://github.com/yozhic/goldendict-macos-builds/blob/main/screenshots/COMPARE_DARK.png)  
-
-Сравнение версий: окно программы, системное оформление `Dark`, стиль `macOS Dark Deep`  
 
 ![COMPARE DARK DEEP](https://github.com/yozhic/goldendict-macos-builds/blob/main/screenshots/COMPARE_DARK_DEEP.png)  
 
-Сравнение версий: диалог настроек, системное оформление `Light`, стиль `macOS Light`  
-
 ![COMPARE PREFS](https://github.com/yozhic/goldendict-macos-builds/blob/main/screenshots/COMPARE_PREFS.png)  
 
-## Скачать
-
-Готовые к использованию сборки, упакованные в контейнер `dmg`, размещаются в разделе [Releases](https://github.com/yozhic/goldendict-macos-builds/releases).  
-
-## Самостоятельная сборка
-
-Для возможности сборки в системе должен быть установлен [Xcode](https://developer.apple.com/support/xcode). Далее:  
-
-1. Скачиваем установщик Qt. Последний в свободном доступе: [5.14.2](https://download.qt.io/archive/qt/5.14/5.14.2/).  
-
-2. Устанавливаем Qt. В процессе понадобится подключиться к личному кабинету Qt (если не существует, создаём). Путь для установки, например: `~/Qt`. В окне выбора компонентов отмечаем `Qt 5.14.2` → `macOS` (`Developer` отмечен по умолчанию).  
-
-3. Скачиваем QtWebKit 5.212.0 Alpha 4, скомпилированный для macOS: [qtwebkit-MacOS-MacOS_10_13-Clang-MacOS-MacOS_10_13-X86_64.7z](https://github.com/qtwebkit/qtwebkit/releases). Распаковываем архив, копируем всю структуру папок в `~/Qt/5.14.2/clang_64`.  
-
-4. Клонируем головной репозиторий `goldendict`:  
-
-   ```sh
-   git clone https://github.com/goldendict/goldendict && cd ./goldendict
-   ```
-   
-5. Создаём проект:  
-
-   ```sh
-   ~/Qt/5.14.2/clang_64/bin/qmake
-   ```
-
-   Собираем:  
-
-   ```sh
-   make
-   ```
-
-6. Укомплектовываем собранный `GoldenDict.app` необходимыми библиотеками:  
-
-   ```sh
-   ~/Qt/5.14.2/clang_64/bin/macdeployqt GoldenDict.app
-   ```
-
-   Можно также сразу создать простой `dmg`:  
-   
-   ```sh
-   ~/Qt/5.14.2/clang_64/bin/macdeployqt GoldenDict.app -dmg
-   ```
