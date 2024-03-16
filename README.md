@@ -13,7 +13,7 @@ Tested on Mojave, Big Sur, Monterey, Ventura
 
 ## Overview
 
-The `master` version is a macOS build of the (hopefully) most up-to-date version of [goldendict-master](https://github.com/goldendict/goldendict), without any additions or modifications.  
+As the name implies, `goldendict-master` is a macOS build of the (hopefully) most up-to-date version of [goldendict-master](https://github.com/goldendict/goldendict), without any additions or modifications.  
 
 The `mac-adapted` version is an [attempt](https://github.com/yozhic/goldendict/tree/mac-adapted) to make GoldenDict look more presentable on newer macOS systems. It comes with an updated set of scalable icons and includes three additional display styles whose look and feel aims to match that of the OS itself. In all other respects it is exactly the same as the plain unaltered `master` version.  
 
