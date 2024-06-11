@@ -2,6 +2,9 @@
 
 # goldendict-macos-builds
 
+[![Downloads Adapted](https://img.shields.io/github/downloads/yozhic/goldendict-macos-builds/latest/GD-1.5.0-18-mac-adapted-Qt5.14.2.dmg)](https://github.com/yozhic/goldendict-macos-builds/releases/download/v1.5.0-18/GD-1.5.0-18-mac-adapted-Qt5.14.2.dmg)  
+[![Downloads Master](https://img.shields.io/github/downloads/yozhic/goldendict-macos-builds/latest/GD-1.5.0-18-master-Qt5.14.2.dmg)](https://github.com/yozhic/goldendict-macos-builds/releases/latest/download/GD-1.5.0-18-master-Qt5.14.2.dmg)
+
 Unofficial third-party builds of GoldenDict for macOS
 
 Based on Qt 5.14.2 (Clang 11.0, x86_64) with QtWebKit 5.212.0 Alpha 4  
