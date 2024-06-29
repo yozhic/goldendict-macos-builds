@@ -2,8 +2,8 @@
 
 # goldendict-macos-builds
 
-[![Downloads Adapted](https://img.shields.io/github/downloads/yozhic/goldendict-macos-builds/latest/GD-1.5.0-18-mac-adapted-Qt5.14.2.dmg)](https://github.com/yozhic/goldendict-macos-builds/releases/download/v1.5.0-18/GD-1.5.0-18-mac-adapted-Qt5.14.2.dmg)  
-[![Downloads Master](https://img.shields.io/github/downloads/yozhic/goldendict-macos-builds/latest/GD-1.5.0-18-master-Qt5.14.2.dmg)](https://github.com/yozhic/goldendict-macos-builds/releases/latest/download/GD-1.5.0-18-master-Qt5.14.2.dmg)
+[![Downloads Adapted](https://img.shields.io/github/downloads/yozhic/goldendict-macos-builds/latest/GD-1.5.0-19-mac-adapted-Qt5.14.2.dmg)](https://github.com/yozhic/goldendict-macos-builds/releases/latest/download/GD-1.5.0-19-mac-adapted-Qt5.14.2.dmg)  
+[![Downloads Master](https://img.shields.io/github/downloads/yozhic/goldendict-macos-builds/latest/GD-1.5.0-19-master-Qt5.14.2.dmg)](https://github.com/yozhic/goldendict-macos-builds/releases/latest/download/GD-1.5.0-19-master-Qt5.14.2.dmg)
 
 Unofficial third-party builds of GoldenDict for macOS
 
