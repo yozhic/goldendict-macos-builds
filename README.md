@@ -2,8 +2,8 @@
 
 # goldendict-macos-builds
 
-[![Downloads Adapted](https://img.shields.io/github/downloads/yozhic/goldendict-macos-builds/latest/GD-1.5.0-19-mac-adapted-Qt5.14.2.dmg)](https://github.com/yozhic/goldendict-macos-builds/releases/latest/download/GD-1.5.0-19-mac-adapted-Qt5.14.2.dmg)  
-[![Downloads Master](https://img.shields.io/github/downloads/yozhic/goldendict-macos-builds/latest/GD-1.5.0-19-master-Qt5.14.2.dmg)](https://github.com/yozhic/goldendict-macos-builds/releases/latest/download/GD-1.5.0-19-master-Qt5.14.2.dmg)
+![Label](https://img.shields.io/badge/GoldenDict-macOS-lightgray) [![Latest release](https://img.shields.io/github/v/release/yozhic/goldendict-macos-builds)](https://github.com/yozhic/goldendict-macos-builds/releases/latest) [![All Downloads](https://img.shields.io/github/downloads/yozhic/goldendict-macos-builds/total)](https://github.com/yozhic/goldendict-macos-builds/releases)  
+
 
 Unofficial third-party builds of GoldenDict for macOS
 
@@ -50,6 +50,9 @@ The steps below are required for certain features to function properly. It is hi
 
 
 ## Download
+
+[![Downloads Adapted](https://img.shields.io/github/downloads/yozhic/goldendict-macos-builds/latest/GD-1.5.0-19-mac-adapted-Qt5.14.2.dmg)](https://github.com/yozhic/goldendict-macos-builds/releases/latest/download/GD-1.5.0-19-mac-adapted-Qt5.14.2.dmg)  
+[![Downloads Master](https://img.shields.io/github/downloads/yozhic/goldendict-macos-builds/latest/GD-1.5.0-19-master-Qt5.14.2.dmg)](https://github.com/yozhic/goldendict-macos-builds/releases/latest/download/GD-1.5.0-19-master-Qt5.14.2.dmg)  
 
 You can get the latest release from the [Releases](https://github.com/yozhic/goldendict-macos-builds/releases) page.  
 
