@@ -7,7 +7,7 @@
 
 Unofficial third-party builds of GoldenDict for macOS
 
-Based on Qt 5.14.2 (Clang 11.0, x86_64) with QtWebKit 5.212.0 Alpha 4  
+Based on Qt 5.15.2 (Clang 11.0, x86_64) with QtWebKit 5.212.0 Alpha 4  
 Tested on Mojave, Big Sur, Monterey, Ventura  
 
 > [!IMPORTANT]  
