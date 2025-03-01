@@ -51,8 +51,8 @@ The steps below are required for certain features to function properly. It is hi
 
 ## Download
 
-[![Downloads Adapted](https://img.shields.io/github/downloads/yozhic/goldendict-macos-builds/latest/GD-1.5.0-19-mac-adapted-Qt5.14.2.dmg)](https://github.com/yozhic/goldendict-macos-builds/releases/latest/download/GD-1.5.0-19-mac-adapted-Qt5.14.2.dmg)  
-[![Downloads Master](https://img.shields.io/github/downloads/yozhic/goldendict-macos-builds/latest/GD-1.5.0-19-master-Qt5.14.2.dmg)](https://github.com/yozhic/goldendict-macos-builds/releases/latest/download/GD-1.5.0-19-master-Qt5.14.2.dmg)  
+[![Downloads Adapted](https://img.shields.io/github/downloads/yozhic/goldendict-macos-builds/latest/GD-1.5.0-25-mac-adapted-Qt5.15.2.dmg)](https://github.com/yozhic/goldendict-macos-builds/releases/latest/download/GD-1.5.0-25-mac-adapted-Qt5.15.2.dmg)  
+[![Downloads Master](https://img.shields.io/github/downloads/yozhic/goldendict-macos-builds/latest/GD-1.5.0-25-master-Qt5.15.2.dmg)](https://github.com/yozhic/goldendict-macos-builds/releases/latest/download/GD-1.5.0-25-master-Qt5.15.2.dmg)  
 
 You can get the latest release from the [Releases](https://github.com/yozhic/goldendict-macos-builds/releases) page.  
 
