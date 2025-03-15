@@ -4,7 +4,7 @@
 
 Неофициальные сборки программы GoldenDict для macOS
 
-Собрано на базе Qt 5.15.2 (Clang 11.0, x86_64) и QtWebKit 5.212.0 Alpha 4  
+Собрано на базе Qt 5.14.2 и 5.15.2 (Clang 11.0, x86_64) и QtWebKit 5.212.0 Alpha 4  
 Работоспособность протестирована на Mojave, Big Sur, Monterey, Ventura, Sonoma  
 
 > [!IMPORTANT]  
